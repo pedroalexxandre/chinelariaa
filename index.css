@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+button {
+  @apply transition duration-200 ease-in-out;
+}
+
+a {
+  @apply no-underline hover:underline;
+}
